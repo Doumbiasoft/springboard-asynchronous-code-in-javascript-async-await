@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://unpkg.com/jquery"></script>
+    <script defer src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script defer src="app.js"></script>
+    <title>Async/await - Deck of Cards</title>
+</head>
+<body>
+    <h1 style="font-weight:bold;color:white">Asynchronous Code in JavaScript [ Async/await ]</h1>
+    <div class="container">
+        <h1>PART 2: Deck of Cards</h1>
+        <p class="c">
+            1- Make a request to the Deck of Cards API to request a single card from a newly shuffled deck. Once you have the card, console.log the value and the suit (e.g. “5 of spades”, “queen of diamonds”).
+        </p>
+        <ul style="color: blanchedalmond;" id="request1"></ul>
+         <p class="c">
+            2- Make a request to the deck of cards API to request a single card from a newly shuffled deck. Once you have the card, make a request to the same API to get one more card from the same deck.
+            Once you have both cards, console.log the values and suits of both cards.
+        </p>
+        <ul style="color: blanchedalmond;" id="request2"></ul>
+         <p class="c">
+           3- Build an HTML page that lets you draw cards from a deck. When the page loads, go to the Deck of Cards API to create a new deck, and show a button on the page that will let you draw a card. Every time you click the button, display a new card, until there are no cards left in the deck.
+         </p>
+         <button>GET A CARD</button>
+         <div id="card-area"></div>
+    </div>
+</body>
+</html>
